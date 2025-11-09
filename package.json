@@ -1,0 +1,15 @@
+{
+  "name": "commission-bot",
+  "version": "1.0.0",
+  "description": "A Discord commission support bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5"
+  }
+}
